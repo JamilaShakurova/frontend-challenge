@@ -1,0 +1,14 @@
+.App__btn {
+  display: inline-flex;
+  padding: 23px 20px;
+  text-align: center;
+  color: white;
+
+  &.active {
+    background-color: rgba(30, 136, 229, 1);
+  }
+
+  @media (max-width: 331px) {
+    width: 100%;
+  }
+}

@@ -1,0 +1,13 @@
+.App__header {
+  padding: 0 62px;
+  min-height: 64px;
+  background-color: rgba(33, 150, 243, 1);
+  box-shadow: 0 7px 8px 0 rgba(103, 103, 103, 0.2);
+
+  @media (max-width: 620px) {
+    padding: 0 15px;
+  }
+  @media (max-width: 331px) {
+    padding: 0;
+  }
+}
